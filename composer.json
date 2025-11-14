@@ -1,0 +1,14 @@
+{
+    "name": "temberang/game",
+    "description": "Temberang - Permainan Imposter Kata",
+    "type": "project",
+    "require": {
+        "php": ">=7.4",
+        "cboden/ratchet": "^0.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Temberang\\": "src/"
+        }
+    }
+}

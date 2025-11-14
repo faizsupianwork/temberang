@@ -1,0 +1,7 @@
+# Deny access to all files in uploads directory
+Deny from all
+
+# Allow access only to JSON files (for custom word packs)
+<FilesMatch "\.(json)$">
+    Allow from all
+</FilesMatch>
