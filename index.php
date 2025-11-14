@@ -282,7 +282,7 @@
         <!-- Loading Overlay -->
         <div id="loading" class="loading-overlay" style="display:none">
             <div class="spinner"></div>
-            <p>Memuat...</p>
+            <p>Memuat....</p>
         </div>
     </div>
 
